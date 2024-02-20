@@ -1,34 +1,11 @@
-/* Container for the entire image generator */
-.image-generator-container {
+body {
+    font-family: sans-serif;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    width: 90%;             /* Stretch and shrink with parent */
-    max-width:  600px;      /* Optional upper limit on width */
-    margin: 20px auto;      /* Center horizontally with some spacing */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-/* Input field */
-.image-generator-container input[type="text"] {
-    flex: 1;                /* Input should grow to take up available space */ 
-    margin-bottom: 10px;    
-    padding: 10px;          /* Some visual padding in input field */
-}
-
-/* Button */
-.image-generator-container button {
-    padding: 10px 20px;     /* Visual padding around button text */
-    background-color: #4CAF50; /* Customize with your desired color */
-    color: white;
-    border: none;
-}
-
-/* Image container */
 #imageContainer {
-    width: 100%;            /* Image will span full width of container */
-    text-align: center;     /* Center the image */
-}
-
-#imageContainer img {
-    max-width: 100%;        /* Ensures image scales down */
-    height: auto;           /* Maintain aspect ratio */
+    margin-top: 20px;
 }
